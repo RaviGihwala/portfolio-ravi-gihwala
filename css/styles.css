@@ -1,0 +1,456 @@
+body
+{
+    /* color: #40514E; */
+/* margin: 0; */
+text-align: center;
+/* font-family: 'Merriweather', serif; */
+}
+
+
+#title
+{
+    background-color: #60a1bb;
+    color: white;
+}
+
+
+h1
+{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #006a94;
+    font-size:5.625rem; 
+    padding: 15px 0;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #006a94;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+h4
+{
+    color: #006a94;
+}
+
+
+/* Images */
+
+
+.img-logo
+{
+    width: 80px;
+    padding: 10px 0 0 10px;
+}
+
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+
+.bottom-cloud
+{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+
+/* navbar */
+
+.navbar
+{
+    padding:0 0 4.5rem;
+}
+
+
+.nav-item
+{
+    padding: 0 18px;
+  
+}
+
+.navbar-dark, .navbar-nav, .nav-link, .nav-item, .dropdown-item
+{
+    color: rgba(255,255,255,.5);
+}
+.nav-item:hover
+{
+    /* padding: 0 18px; */
+  /* background-color: white; */
+  color: white;
+  font-weight: bolder;
+}
+
+
+.nav-link, .dropdown-item
+{
+    font-family:'Montserrat-light';
+    font-size: 1.5rem;
+    
+   
+}
+
+.dropdown-menu
+{
+    background-color: #60a1bb;
+}
+
+
+.dropdown-item
+{
+    background-color: #60a1bb;
+    
+}
+
+.dropdown-item:hover
+{
+    /* background-color: #006a94; */
+   color: #006a94;
+
+}
+
+
+
+#about
+{
+    /* background-color: #0ca547; */
+    color: #006a94;
+ 
+    padding: 5% 5%;
+}
+
+#testing
+{
+    padding: 5% 5%;
+    color: #006a94;
+}
+
+#testing ul
+{
+    padding: 10px 0;
+}
+
+
+#testing ul li
+{
+    padding: 5px 0;
+    list-style: none;
+}
+
+
+
+#web
+{
+    padding: 5% 5%;
+    color: #006a94;
+}
+
+
+#web ul
+{
+    padding: 10px 0;
+}
+
+
+#web ul li
+{
+    padding: 5px 0;
+    list-style: none;
+}
+
+#personal
+{
+    padding: 5% 5%;
+    color: #006a94;
+}
+
+#personal ul
+{
+    padding: 10px 0;
+}
+
+
+#personal ul li
+{
+    padding: 5px 0;
+    list-style: none;
+}
+
+.img-profile
+{
+    width: 100px;
+    padding: 0 0 5% 0;
+}
+
+
+
+.img-skills
+{
+    width: 100px;
+    padding: 0 0 5% 0;
+}
+
+
+
+#features
+{
+    /* background-color: #cadf12; */
+    color: #006a94;
+    padding: 5% 5%;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+   
+}
+
+.icon
+{
+    width: 80px;
+    
+}
+/* 
+.skill-head
+{
+    padding: 50px;
+    color: #006a94;
+    text-decoration: none;
+
+} */
+
+
+.feature-link h3
+{
+    text-decoration: none;
+}
+
+h3
+{
+    font-family: 'Merriweather', serif;
+}
+
+#tools
+{
+    background-color: #df12bd;
+    color: white;
+    padding: 5% 5%;
+}
+
+#education
+{
+    /* background-color: #ec884e; */
+    color: #006a94;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.table
+{
+    color: #006a94;
+}
+
+.img-student
+{
+    width: 100px;
+    padding: 0 0 5% 0;
+}
+
+
+#career
+{
+    /* background-color: #3881ee; */
+    color: #006a94;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.img-goal
+{
+    width: 100px;
+    padding: 0 0 5% 0;
+}
+
+#contact
+{
+    /* background-color: #403ebd; */
+    color: #006a94;
+    padding: 5% 0;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+
+.controls
+{
+    text-align: center;
+/* margin-left:auto;
+margin-right: auto; */
+}
+
+label
+{
+    font-weight: bold;
+}
+
+
+
+
+.img-contact
+{
+    width: 100px;
+    padding: 0 0 5% 0;
+}
+
+.contact-img
+{
+    width: 40px;
+    margin: 5px 10px 15px 0;
+ 
+}
+
+.contact-details
+{
+    padding: 15px 0 10px 0;
+    font-weight: bold;
+   
+}
+
+
+.btn
+{
+    background-color: #006a94;
+    color: white;
+}
+
+
+.btn:hover
+{
+    background-color: #60a1bb;
+    color: white;
+}
+
+
+.contact-box
+{
+    text-align: center;
+    padding: 2%;
+    color: #006a94;
+    /* background-color: #60a1bb; */
+}
+
+
+
+hr
+{
+border:1px solid #006a94;
+}
+
+.border-right {
+    border-right: 1px solid #006a94!important;
+}
+
+
+#footer
+{
+    background-color: #60a1bb;
+    color: #006a94;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.connect a
+{
+    padding: 0 15px 0 15px;
+}
+
+.img-facebook
+{
+    width: 25px;
+}
+
+
+.img-instagram
+{
+    width: 25px;
+}
+
+
+.img-linkedin
+{
+    width: 25px;
+}
+
+
+
+.img-github
+{
+    width: 25px;
+}
+
+.copyright
+{
+    padding-top: 15px;
+}
+
+
+
+/* Typography */
+
+/* hr
+{
+    border-top:1px solid #006a94;
+    width: 200px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Notes */
+/*
+h1
+{
+
+    font-size:5.625rem; 
+    
+    /* 100% = 16px which means if i want 90px then 90px/16 = 562.5% */
+
+/* 16px = 100% = 1em */
+/* font-size em or % scale the font size */
+/* when you add font-size to the body and the h1 element it will add it to give the h1 the new font size. 
+
+eg. body - font size = 2em
+    h1 - font size = 5.625em
+    total h1 font size will be 7.625em 
+
+    * to avoid this make the h1 font size 5.625rem insteat of 5.625em */
+
+/*
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    
+}
+
+*/
+
+
+
