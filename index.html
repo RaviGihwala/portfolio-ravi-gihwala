@@ -10,7 +10,8 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="css/styles.css" rel="stylesheet">
+ 
+  <link href="css/styles.css" rel="stylesheet"> 
 
   <!--Icon -->
   <link href="favicon.ico" rel="icon">
@@ -23,76 +24,67 @@
   <script src="https://kit.fontawesome.com/dc5f1b3d51.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <section id="title">
 
-  <section id="title">
-    <div class="container-fluid">
 
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
     
-        <a class="navbar-brand" href="#index.html"><img class="img-logo" src="images/logo.png"></a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
-            </li>
-
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#features" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">Features</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="testing.html">Software Testing</a>
-                <a class="dropdown-item" href="web.html">Web Development</a>
-                <a class="dropdown-item" href="personal.html">Personal</a>
-              </div>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#career">Career</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    
+            <a class="navbar-brand" href="#index.html"><img class="img-logo" src="images/logo.png"></a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#title">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Features</a>
+                </li>
+    
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#career">Career</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-      </nav>
-
-
-
-      <div class="row">
-        <div class="col-md-12">
-          <img class="top-cloud" src="images/cloud.png" alt="Cloud-Image" />
-          <h1>I'm Ravi.</h1>
-          <h2>Software Test Analyst & Web Developer</h2>
-          <img class="bottom-cloud" src="images/cloud.png" alt="Cloud-Image" />
-          <img src="images/mountain.png" alt="Mountain-Image">
+    
+    
+          <div class="container">
+          <div class="row">
+            <div class="col m-1">
+              <img class="top-cloud" src="images/cloud.png" alt="Cloud-Image" />
+              <h1>I'm Ravi.</h1>
+              <h2>Software Test Analyst & Web Developer</h2>
+              <img class="bottom-cloud" src="images/cloud.png" alt="Cloud-Image" />
+              <img class="mountain" src="images/mountain.png" alt="Mountain-Image">
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
- 
+      </section>
+    
 
-
-
-
-  <section id="about">
-    <div class="container-fluid">
+      <section id="about">
+        <div class="container">
       <div class="profile">
         <img class="img-profile" src="images/profile.png" alt="Profile Picture" />
         <h2>About Me</h2>
@@ -133,554 +125,517 @@
 
 
   <section id="features">
-    <div class="container-fluid">
+    <div class="container">
 
-      
-<h2>Features</h2>
-<hr width="200px">
-<div class="row">
-        <div class="feature-box col-lg-4">
+
+      <h2>Features</h2>
+      <hr width="200px">
+      <div class="row">
+        <div class="feature-box col">
           <a class="feature-link" href="#testing">
             <img class="icon" src="images/simulation.png" alt="Skills-Image">
-            <h3 class="p-5">Software Testing</h3></a>
+            <h3 class="p-1 m-1">Software Testing</h3>
+          </a>
         </div>
 
 
 
-        <div class="feature-box col-lg-4">
+        <div class="feature-box col">
           <a class="feature-link" href="#web">
-          <img class="icon" src="images/code.png" alt="Student-Image">
-          <h3 class="p-5">Web Development</h3></a>
+            <img class="icon" src="images/code.png" alt="Student-Image">
+            <h3 class="p-1 m-1">Web Development</h3>
+          </a>
         </div>
 
-        <div class="feature-box col-lg-4">
+        <div class="feature-box col">
           <a class="feature-link" href="personal.html">
             <img class="icon" src="images/worker.png" alt="Career-Image">
-          <h3 class="p-5">Personal</h3>
+            <h3 class="p-1 m-1">Personal</h3>
           </a>
         </div>
 
       </div>
-      </div>
+    </div>
   </section>
 
 
-<hr width="400px">
+  <hr width="400px">
 
-<section id="testing">
-  <div class="container-fluid">
-    <img class="img-skills" src="images/skills.png" alt="Skills-Image" />
-    <h4>Software Testing Skills and Tools</h4>
-    <hr width="200px">
-    <div class="row">
-<div class="col-lg-6">
-<ul class="">
-<li>Attention to Detail</li>
-<li>DevOps & Agile Methodology </li>
-<li>Automation Web & Mobile Technologies </li>
-<li>SDLC and STLC</li>
-<li>Rational Analysis & Logical Thinking </li>
-<li>Social Networking </li>
-<li>Postman</li>
-<li>Selenium IDE</li>
-<li>Testing Tools & Techniques </li>
-<li>Communication – Written & Oral</li>
-<li>Test Execution</li>
-</ul>
-</div>
+  <section id="testing">
+    <div class="container">
+      <img class="img-skills" src="images/skills.png" alt="Skills-Image" />
+      <h4>Software Testing Skills and Tools</h4>
+      <hr width="200px">
+      <div class="row">
+        <div class="col">
+          <ul class="">
+            <li>Attention to Detail</li>
+            <li>DevOps & Agile Methodology </li>
+            <li>Automation Web & Mobile Technologies </li>
+            <li>SDLC and STLC</li>
+            <li>Rational Analysis & Logical Thinking </li>
+            <li>Social Networking </li>
+            <li>Postman</li>
+            <li>Selenium IDE</li>
+            <li>Testing Tools & Techniques </li>
+            <li>Communication – Written & Oral</li>
+            <li>Test Execution</li>
+          </ul>
+        </div>
 
-<div class="col-lg-6">
-<ul class="">
-<li>Intellectuality & Creativity </li>
-<li>Test Planning & Documentation </li>
-<li>Project Management </li>
-<li>HP Quality Center</li>
-<li>Jira/Kanban</li>
-<li>Katalon</li>
-<li>SOAP UI</li>
-<li>Eclipse IDE</li>
-<li>Test Project</li>
-<li>Test Case Design</li>
-<li>Agile and Waterfall </li>
-
-</ul>
-
-
-
-</div>
-
+        <div class="col">
+          <ul class="">
+            <li>Intellectuality & Creativity </li>
+            <li>Test Planning & Documentation </li>
+            <li>Project Management </li>
+            <li>HP Quality Center</li>
+            <li>Jira/Kanban</li>
+            <li>Katalon</li>
+            <li>SOAP UI</li>
+            <li>Eclipse IDE</li>
+            <li>Test Project</li>
+            <li>Test Case Design</li>
+            <li>Agile and Waterfall </li>
+          </ul>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <hr width="400px">
+
+  <section id="web">
+    <div class="container">
+      <img class="img-skills" src="images/skills.png" alt="Skills-Image" />
+      <h4>Web Developer Skills and Tools</h4>
+      <hr width="200px">
+      <div class="row">
+        <div class="col">
+          <ul class="">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Adobe Photoshop</li>
+            <li>XAMPP Server</li>
+            <li>Visual Studio Code</li>
+            <li>Bootstrap</li>
+       
+          </ul>
+        </div>
+
+        <div class="col">
+          <ul class="">
+            <li>W3.CSS Framework</li>
+            <li>Create and test applications for websites</li>
+            <li>Collaboration</li>
+            <li>Present Design Specs</li>
+            <li>Work with graphics and other designers
+            </li>
+            <li>Troubleshoot website problems</li>
+            <li>Maintain and update websites </li>
+            <li>Monitor website traffic </li>
+            <li>Stay up-to-date on technology </li>
+          </ul>
+       </div>
       </div>
-     
-      </section>
+    </div>
+  </section>
 
-      <hr width="400px">
+  <hr width="400px">
 
+  <section id="personal">
+    <div class="container">
+      <img class="img-skills" src="images/skills.png" alt="Skills-Image" />
+      <h4>Personal Development Skills</h4>
+      <hr width="200px">
+      <div class="row">
+        <div class="col">
+          <ul class="">
+            <li>Detail-oriented </li>
+            <li>Multitasking</li>
+            <li>Self-motivated </li>
+            <li>Problem Solving </li>
+            <li>Accountability </li>
+            <li>Flexible </li>
+            <li>Positive Attitude </li>
+            <li>Committed </li>
+            <li>Respect </li>
+            <li>Integrity</li>
+            <li>Motivated</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <section id="web">
-        <div class="container-fluid">
-          <img class="img-skills" src="images/skills.png" alt="Skills-Image" />
-          <h4>Web Developer Skills and Tools</h4>
+  <hr width="400px">
+
+  <section id="education">
+    <div class="container">
+      <img class="img-student" src="images/student.png" alt="Student-Image" />
+      <div class="row">
+        <div class="col">
+          <h2>My Education</h2>
           <hr width="200px">
-          <div class="row">
-<div class="col-lg-6">
-  <ul class="">
-    <li>HTML5</li>
-    <li>CSS3</li>
-    <li>JavaScript</li>
-    <li>jQuery</li>
-    <li>PHP</li>
-    <li>MySQL</li>
-    <li>Adobe Photoshop</li>
-    <li>XAMPP Server</li>
-    <li>Visual Studio Code</li>
-    <li>Bootstrap</li>
-    </ul>
-</div>
-
-
-    <div class="col-lg-6">
-      <ul class="">
-        <li>W3.CSS Framework</li>
-      <li>Create and test applications for websites</li>
-      <li>Collaboration</li>
-      <li>Present Design Specs</li>
-      <li>Work with graphics and other designers
-      </li>
-      <li>Troubleshoot website problems</li>
-      <li>Maintain and update websites </li>
-      <li>Monitor website traffic </li>
-      <li>Stay up-to-date on technology </li>
-</ul>
-
-  </div>
-
-</div>
-</div>
-
-</section>
-<hr width="400px">
-
-<section id="personal">
-  <div class="container-fluid">
-    <img class="img-skills" src="images/skills.png" alt="Skills-Image" />
-    <h4>Personal Development Skills</h4>
-    <hr width="200px">
-    <div class="row">
-<div class="col-lg-12">
-<ul class="">
-<li>Detail-oriented </li>
-<li>Multitasking</li>
-<li>Self-motivated </li>
-<li>Problem Solving </li>
-<li>Accountability </li>
-<li>Flexible </li>
-<li>Positive Attitude </li>
-<li>Committed </li>
-<li>Respect </li>
-<li>Integrity</li>
-<li>Motivated</li>
-</ul>
-
-</div>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Institution</th>
+                <th scope="col">Course</th>
+                <th scope="col">Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Eduonix</td>
+                <td>Online - Beginner Visual Studio Code</td>
+                <td>March 2020</td>
+              </tr>
+              <tr>
+                <td>Udemy - Online</td>
+                <td>Beginner Visual Studio Code</td>
+                <td>March 2020</td>
+              </tr>
+              <tr>
+                <td>Udemy - Online</td>
+                <td>Web Development by doing HTML5 & CSS3</td>
+                <td>December 2019</td>
+              </tr>
+              <tr>
+                <td>Master Grade IT</td>
+                <td>Web Database Applications with PHP & MySQL</td>
+                <td>December 2019</td>
+              </tr>
+              <tr>
+                <td>Master Grade IT</td>
+                <td>JavaScript Advanced Programming</td>
+                <td>November 2019</td>
+              </tr>
+              <tr>
+                <td>Master Grade IT</td>
+                <td>JavaScript Fundamentals</td>
+                <td>November 2019</td>
+              </tr>
+              <tr>
+                <td>Master Grade IT</td>
+                <td>Web Design with HTML5 and CSS3 - Part 1</td>
+                <td>October 2019</td>
+              </tr>
+              <tr>
+                <td>Master Grade IT</td>
+                <td>Web Design with HTML5 and CSS3 - Part 2</td>
+                <td>October 2019</td>
+              </tr>
+              <tr>
+                <td>Master Grade IT</td>
+                <td>Getting Started with Web Design</td>
+                <td>July - August 2019</td>
+              </tr>
+              <tr>
+                <td>Master Grade IT</td>
+                <td>Practical Appraoch</td>
+                <td>August 2019</td>
+              </tr>
+              <tr>
+                <td>Master Grade IT</td>
+                <td>Adobe Photoshop - Part 1</td>
+                <td>August 2019</td>
+              </tr>
+              <tr>
+                <td>Test & Data Services</td>
+                <td>Agile</td>
+                <td>2013</td>
+              </tr>
+              <tr>
+                <td>iLab</td>
+                <td>Practical Software Testing</td>
+                <td>2011</td>
+              </tr>
+              <tr>
+                <td>CITA Technologies</td>
+                <td>PC Engineering</td>
+                <td>2000</td>
+              </tr>
+              <tr>
+                <td>Livingstone High School</td>
+                <td>Matric</td>
+                <td>1999</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-    </div>
-    </section>
-
-    <hr width="400px">
-  
-<section id="education">
-  <div class="container-fluid">
-    <img class="img-student" src="images/student.png" alt="Student-Image" />
-    <div class="row">
-
-  <div class="col">
-    <h2>My Education</h2>
-    <hr width="200px">
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th scope="col">Institution</th>
-          <th scope="col">Course</th>
-          <th scope="col">Year</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Eduonix</td>
-          <td>Online - Beginner Visual Studio Code</td>
-          <td>March 2020</td>
-        </tr>
-        <tr>
-          <td>Udemy - Online</td>
-          <td>Beginner Visual Studio Code</td>
-          <td>March 2020</td>
-        </tr>
-        <tr>
-          <td>Udemy - Online</td>
-          <td>Web Development by doing HTML5 & CSS3</td>
-          <td>December 2019</td>
-        </tr>
-        <tr>
-          <td>Master Grade IT</td>
-          <td>Web Database Applications with PHP & MySQL</td>
-          <td>December 2019</td>
-        </tr>
-        <tr>
-          <td>Master Grade IT</td>
-          <td>JavaScript Advanced Programming</td>
-          <td>November 2019</td>
-        </tr>
-        <tr>
-          <td>Master Grade IT</td>
-          <td>JavaScript Fundamentals</td>
-          <td>November 2019</td>
-        </tr>
-        <tr>
-          <td>Master Grade IT</td>
-          <td>Web Design with HTML5 and CSS3 - Part 1</td>
-          <td>October 2019</td>
-        </tr>
-        <tr>
-          <td>Master Grade IT</td>
-          <td>Web Design with HTML5 and CSS3 - Part 2</td>
-          <td>October 2019</td>
-        </tr>
-        <tr>
-          <td>Master Grade IT</td>
-          <td>Getting Started with Web Design</td>
-          <td>July - August 2019</td>
-        </tr>
-        <tr>
-          <td>Master Grade IT</td>
-          <td>Practical Appraoch</td>
-          <td>August 2019</td>
-        </tr>
-        <tr>
-          <td>Master Grade IT</td>
-          <td>Adobe Photoshop - Part 1</td>
-          <td>August 2019</td>
-        </tr>
-        <tr>
-          <td>Test & Data Services</td>
-          <td>Agile</td>
-          <td>2013</td>
-        </tr>
-        <tr>
-          <td>iLab</td>
-          <td>Practical Software Testing</td>
-          <td>2011</td>
-        </tr>
-        <tr>
-          <td>CITA Technologies</td>
-          <td>PC Engineering</td>
-          <td>2000</td>
-        </tr>
-        <tr>
-          <td>Livingstone High School</td>
-          <td>Matric</td>
-          <td>1999</td>
-        </tr>
-      </tbody>
-    </table>
-
-  </div>
-    </div>
-    </div>
-    </section>
+  </section>
 
 
   <hr width="400px">
 
 
   <section id="career">
-    <div class="container-fluid">
+    <div class="container">
       <img class="img-goal" src="images/goal.png" alt="Goal-Image" />
       <div class="row">
+        <div class="col">
+          <h2>My Career</h2>
+          <hr width="200px">
+          <p>My greatest strength lies in my strong commitment to providing a professional service to stakeholders as
+            well as my passion for cultivating and maintaining close working relationships with every client and
+            business partner
+            I am fortunate to work with.</p>
+          <p>This relationship building helps me to gain an invaluable understanding of customer business and individual
+            needs. </p>
+            </div>
+        </div>
 
-
-  <div class="col">
-    <h2>My Career</h2>
-    <hr width="200px">
-    <p>My greatest strength lies in my strong commitment to providing a professional service to stakeholders as well as my passion for cultivating and maintaining close working relationships with every client and business partner
-      I am fortunate to work with.</p>
-    <p>This relationship building helps me to gain an invaluable understanding of customer business and individual
-      needs. </p>
-  </div>
-   
-    
-      <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th scope="col">Company</th>
-          <th scope="col">Position</th>
-          <th scope="col">Duration</th>
-          <th scope="col">Responsibilities</th>
-          <th scope="col">Reference</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Old Mutual</td>
-          <td>Senior IT Tester</td>
-          <td>August 2018 till June 2019</td>
-          <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing /
-            Review Software Requirements / Database impacts / Usability / Performance Testing</td>
-          <td>Adrian Davids - Test Manager - 083 822 6733</td>
-        </tr>
-        <tr>
-          <td>LexisNexis</td>
-          <td>Senior Software Quality Analyst</td>
-          <td>May 2017 till June 2018</td>
-          <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing /
-            Review Software Requirements / Database impacts / Usability / Performance Testing / Deploy changes to
-            different environments</td>
-          <td>Darren Hill - Team Lead - 083 861 8384</td>
-        </tr>
-        <tr>
-          <td>Old Mutual</td>
-          <td>Senior IT Tester</td>
-          <td>November 2015 till April 2017</td>
-          <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing /
-            Review Software Requirements / Database impacts / Usability / Performance Testing / Deploy changes to
-            different environments / Estimation Matrix / Training of new testers</td>
-          <td>Verna Jenniker - IT Manager - 082 994 2275</td>
-        </tr>
-        <tr>
-          <td>Old Mutual</td>
-          <td>Data Profiling / IT Support Specialist / IT Tester</td>
-          <td>May 2015 till October 2015</td>
-          <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing /
-            Review Software Requirements / Database impacts / Usability / Performance Testing / Deploy changes to
-            different environments / Provide IT support for business production users</td>
-          <td>Herman Swart - IT Manager - 082 467 7790</td>
-        </tr>
-        <tr>
-          <td>Old Mutual</td>
-          <td>Senior Tester</td>
-          <td>May 2009 till April 2015</td>
-          <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing /
-            Review Software Requirements / Usability </td>
-          <td>Hennie Pretorius - Test Manager - 079 894 8541</td>
-        </tr>
-        <tr>
-          <td>Old Mutual</td>
-          <td>Team Leader</td>
-          <td>July 2007 till April 2009</td>
-          <td>Managing team / Ensure SLA is met / Handling client escalations</td>
-          <td>Bernie Hiss - Department Head</td>
-        </tr>
-        <tr>
-          <td>Old Mutual</td>
-          <td>Senior Administrator</td>
-          <td>December 2005 till June 2007</td>
-          <td>Exising Business Senior Administrator</td>
-          <td>Bernie Hiss - Department Head</td>
-        </tr>
-        <tr>
-          <td>Old Mutual</td>
-          <td>Service Centre Consultant</td>
-          <td>August 2004 till November 2005</td>
-          <td>New Business Data Capturer</td>
-          <td>Willem van der Merwe - Department Head</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  </div>
- 
+        <div class="row">
+          <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Company</th>
+              <th scope="col">Position</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Responsibilities</th>
+              <th scope="col">Reference</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Old Mutual</td>
+              <td>Senior IT Tester</td>
+              <td>August 2018 till June 2019</td>
+              <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing
+                /
+                Review Software Requirements / Database impacts / Usability / Performance Testing</td>
+              <td>Adrian Davids - Test Manager - 083 822 6733</td>
+            </tr>
+            <tr>
+              <td>LexisNexis</td>
+              <td>Senior Software Quality Analyst</td>
+              <td>May 2017 till June 2018</td>
+              <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing
+                /
+                Review Software Requirements / Database impacts / Usability / Performance Testing / Deploy changes to
+                different environments</td>
+              <td>Darren Hill - Team Lead - 083 861 8384</td>
+            </tr>
+            <tr>
+              <td>Old Mutual</td>
+              <td>Senior IT Tester</td>
+              <td>November 2015 till April 2017</td>
+              <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing
+                /
+                Review Software Requirements / Database impacts / Usability / Performance Testing / Deploy changes to
+                different environments / Estimation Matrix / Training of new testers</td>
+              <td>Verna Jenniker - IT Manager - 082 994 2275</td>
+            </tr>
+            <tr>
+              <td>Old Mutual</td>
+              <td>Data Profiling / IT Support Specialist / IT Tester</td>
+              <td>May 2015 till October 2015</td>
+              <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing
+                /
+                Review Software Requirements / Database impacts / Usability / Performance Testing / Deploy changes to
+                different environments / Provide IT support for business production users</td>
+              <td>Herman Swart - IT Manager - 082 467 7790</td>
+            </tr>
+            <tr>
+              <td>Old Mutual</td>
+              <td>Senior Tester</td>
+              <td>May 2009 till April 2015</td>
+              <td>Drawing up test cases / Executing test scenarios / Progress and Defect Reporting / Integration Testing
+                /
+                Review Software Requirements / Usability </td>
+              <td>Hennie Pretorius - Test Manager - 079 894 8541</td>
+            </tr>
+            <tr>
+              <td>Old Mutual</td>
+              <td>Team Leader</td>
+              <td>July 2007 till April 2009</td>
+              <td>Managing team / Ensure SLA is met / Handling client escalations</td>
+              <td>Bernie Hiss - Department Head</td>
+            </tr>
+            <tr>
+              <td>Old Mutual</td>
+              <td>Senior Administrator</td>
+              <td>December 2005 till June 2007</td>
+              <td>Exising Business Senior Administrator</td>
+              <td>Bernie Hiss - Department Head</td>
+            </tr>
+            <tr>
+              <td>Old Mutual</td>
+              <td>Service Centre Consultant</td>
+              <td>August 2004 till November 2005</td>
+              <td>New Business Data Capturer</td>
+              <td>Willem van der Merwe - Department Head</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    </div>
   </section>
+
+
   <hr width="400px">
 
 
-<section id="contact">
-  <div class="container-fluid">
-    <img class="img-contact" src="images/contact.png" alt="Contact-Image" />
-    <h2>Contact Me</h2>
-    <hr width="200px">
-    <div class="row">
-    
-<!-- <div class="col-lg-12"> -->
+  <section id="contact">
+    <div class="container">
+      <img class="img-contact" src="images/contact.png" alt="Contact-Image" />
+      <h2>Contact Me</h2>
+      <hr width="200px">
+      <div class="row">
+        <div class="col">
+          <form id="contact-form" method="post" action="#" role="form">
+            <div class="messages"></div>
+            <div class="controls">
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control"
+                      placeholder="Please enter your firstname *" required="required"
+                      data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control"
+                      placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control"
+                      placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
 
-
-
-
-
-
-      <div class="col-xl-8 offset-xl-2 py-5 ">
-        <!-- <h2>Contact Me</h2>
-<hr> -->
-        <form id="contact-form" method="post" action="#" role="form">
-
-          <div class="messages"></div>
-
-          <div class="controls">
-
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <label for="form_name">Firstname *</label>
-                  <input id="form_name" type="text" name="name" class="form-control"
-                    placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                  <div class="help-block with-errors"></div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *"
+                      rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button type="submit" class="btn btn-send btn-lg" value="Send">Send
+                    </button>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <label for="form_lastname">Lastname *</label>
-                  <input id="form_lastname" type="text" name="surname" class="form-control"
-                    placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <label for="form_email">Email *</label>
-                  <input id="form_email" type="email" name="email" class="form-control"
-                    placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <label for="form_message">Message *</label>
-                  <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *"
-                    rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <input type="submit" class="btn btn-send" value="Send">
-              </div>
-            </div>
-         
+          </form>
+        </div>
+      </div>
+
+      <hr width="200px">
+
+      <div class="container">
+        <div class="row">
+          <div class="contact-box col">
+            <p class="contact-details">
+              <a class="#" href="mailto:gihwalaravi476@gmail.com">
+                <img class="contact-img" src="images/mail.png">
+                <h6 class="p-2">E-mail</h6>
+              </a>
+            </p>
           </div>
 
-        </form>
+          <div class="contact-box col">
+            <p class="contact-details">
+              <a class="#" href="#">
+                <img class="contact-img" src="images/domain.png">
+                <h6 class="p-2">www.ravi-gihwala.com</h6>
+              </a>
+            </p>
+          </div>
 
 
-      </div>
-    </div>
-
-    <hr width="200px">
-
-    <div class="container-fluid">
-    <div class="row"> 
 
 
-      <div class="contact-box col">
-      
-          <p class="contact-details"><a class="#" href="mailto:gihwalaravi476@gmail.com">
-            <img class="contact-img" src="images/mail.png">
-          <h6 class="p-2">E-mail</h6></a>
-          </p>
-      </div>
-     
-
-      <div class="contact-box col">
-      
-        <p class="contact-details"><a class="#" href="#">
-          <img class="contact-img" src="images/domain.png">
-        <h6 class="p-2">www.ravi-gihwala.com</h6></a>
-        </p>
-    </div>
-
-
-     
-      <div class="contact-box col">
-        <p class="contact-details">
-          <img class="contact-img" src="images/pin.png" alt="Address">
-          <h6 class="p-2">
-          32 Camberwell Road, Rondebosch-East, Cape Town, 7764
-        </h6>
-        </p>
+          <div class="contact-box col">
+            <p class="contact-details">
+              <img class="contact-img" src="images/pin.png" alt="Address">
+              <h6 class="p-2">32 Camberwell Road, Rondebosch-East, Cape Town, 7764
+              </h6>
+            </p>
           </div>
 
 
           <div class="contact-box col">
             <p class="contact-details">
               <img class="contact-img" src="images/telephone.png" alt="Telephone">
-              <h6 class="p-2">
-              083 272 4553</h6></p> 
-
-
-
-
+              <h6 class="p-2">083 272 4553</h6>
+            </p>
           </div>
 
-
-
-
-<!-- 
-
-      <div class="col-lg-4">
-        <p class="contact-details"><a class="#" href="mailto:gihwalaravi476@gmail.com"><img class="contact-img" src="images/mail.png"></a>E-mail</p>
- 
-  <p class="contact-details">
-<img class="contact-img" src="images/pin.png" alt="Address">32 Camberwell Road, Rondebosch-East, Cape Town, 7764</p> 
-
-<p class="contact-details">
-<img class="contact-img" src="images/telephone.png" alt="Telephone">083 272 4553</p> 
-
-  
-
         </div>
- -->
-
-
+      </div>
     </div>
-  </div>
-</div>
   </section>
 
-  <!-- <hr width="400px"> -->
+
 
   <section id="footer">
-    <div class="container-fluid">
-      <!-- <h5>Connect</h5> -->
-      <!-- <hr> -->
+    <div class="container">
       <div class="row">
+        <div class="connect col">
+          <a class="facebook" href="https://www.facebook.com/ravi.gihwala">
+            <img class="img-facebook"
+              src="images/facebook.png" alt="Facebook">
+            </a>
 
+          <a class="linkedin" href="https://www.linkedin.com/in/ravi-gihwala-88b23553/">
+            <img class="img-linkedin"
+              src="images/linkedin.png" alt="Linkedin">
+            </a>
 
-<div class="connect col-lg-12">
-<a class="facebook" href="https://www.facebook.com/ravi.gihwala"><img class="img-facebook" src="images/facebook.png" alt="Facebook"></a>
-<!-- <a class="instagram" href="#"><img class="img-instagram" src="images/instagram.png" alt="Instagram"></a> -->
-<a class="linkedin" href="https://www.linkedin.com/in/ravi-gihwala-88b23553/"><img class="img-linkedin" src="images/linkedin.png" alt="Linkedin"></a>
-<a class="github" href="https://github.com/RaviGihwala"><img class="img-github" src="images/github.png" alt="Github"></a>
-</div>
+          <a class="github" href="https://github.com/RaviGihwala">
+            <img class="img-github" src="images/github.png"
+              alt="Github">
+            </a>
+        </div>
       </div>
 
-<p class="copyright">&copy; 2020 || Designed by Ravi Gihwala</p>
+      <p class="copyright">&copy; 2020 || Designed by Ravi Gihwala</p>
 
-        </div>
-        </section>
-
-
+    </div>
+  </section>
 
 
-  <!-- Optional JavaScript -->
+
+
+
+     <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
 </body>
 
 </html>
-
-
-
